@@ -1,0 +1,107 @@
+# Git and GitHub Commands
+
+## Git Commands
+
+### Configuration
+- `git config --global user.name "Your Name"`  
+  Sets the username that will be attached to your commits and tags.
+
+- `git config --global user.email "your.email@example.com"`  
+  Sets the email that will be attached to your commits and tags.
+
+### Repository Setup
+- `git init`  
+  Initializes a new Git repository.
+
+- `git clone <repository-url>`  
+  Clones an existing repository from a URL.
+
+### Basic Workflow
+- `git status`  
+  Shows the working directory status.
+
+- `git add <file>`  
+  Stages a file to be committed.
+
+- `git add .`  
+  Stages all changes in the working directory.
+
+- `git commit -m "Commit message"`  
+  Commits the staged changes with a message.
+
+- `git commit -a -m "Commit message"`  
+  Stages and commits all tracked files.
+
+- `git push`  
+  Pushes commits to the remote repository.
+
+- `git pull`  
+  Fetches and merges changes from the remote repository to the local repository.
+
+### Branching and Merging
+- `git branch`  
+  Lists all branches in the repository.
+
+- `git branch <branch-name>`  
+  Creates a new branch.
+
+- `git checkout <branch-name>`  
+  Switches to the specified branch.
+
+- `git checkout -b <branch-name>`  
+  Creates a new branch and switches to it.
+
+- `git merge <branch-name>`  
+  Merges the specified branch into the current branch.
+
+- `git branch -d <branch-name>`  
+  Deletes the specified branch.
+
+### Remote Repositories
+- `git remote add origin <remote-url>`  
+  Adds a remote repository.
+
+- `git remote -v`  
+  Shows remote repositories.
+
+- `git push -u origin <branch-name>`  
+  Pushes a branch to the remote repository and sets it to track the remote branch.
+
+### Undoing Changes
+- `git reset <file>`  
+  Unstages a file.
+
+- `git reset --hard <commit>`  
+  Resets the index and working directory to the specified commit.
+
+- `git revert <commit>`  
+  Creates a new commit that undoes the changes from a previous commit.
+
+## GitHub Commands
+
+### Forking a Repository
+- Go to the repository page on GitHub.
+- Click the "Fork" button at the top-right of the page.
+
+### Creating a Pull Request
+- Push your branch to GitHub.
+- Go to the repository on GitHub.
+- Click the "Compare & pull request" button.
+
+### Issues
+- Click the "Issues" tab in the repository.
+- Click the "New issue" button to create a new issue.
+
+### Starring a Repository
+- Go to the repository page on GitHub.
+- Click the "Star" button at the top-right of the page.
+
+### Watching a Repository
+- Go to the repository page on GitHub.
+- Click the "Watch" button at the top-right of the page.
+
+### Viewing Repository Insights
+- Go to the repository page on GitHub.
+- Click the "Insights" tab to view analytics about the repository.
+
+
